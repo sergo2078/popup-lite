@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>GitHub Pages Test</title>
+  <meta charset="utf-8" />
+  <title>Popup-MVP — тест</title>
 </head>
 <body>
-  <h1>GitHub Pages работает 🚀</h1>
-  <p>Файл embed.js доступен по прямой ссылке.</p>
+  <h1>Popup-MVP — тестовая страница</h1>
+  <p>Если видите попап — embed.js работает.</p>
+
+  <!-- подключаем embed.js с GitHub Pages -->
+  <script defer
+    src="https://USERNAME.github.io/REPOSITORY/embed.js"
+    data-client-id="demo"
+    data-track-url=""  <!-- сюда позже вставим Apps Script URL -->
+    data-delay="1500"
+    data-title="Нужна помощь?"
+    data-text="Оставьте телефон — перезвоним и поможем с предложением"
+    data-cta-text="Связаться"
+    data-cta-href="https://t.me/YOUR_BOT">
+  </script>
 </body>
 </html>
-
